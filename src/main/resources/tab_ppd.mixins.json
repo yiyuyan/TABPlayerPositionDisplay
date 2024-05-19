@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.TABPPD.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tab_ppd.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "PlayerTABMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
